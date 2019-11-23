@@ -9,4 +9,4 @@ const addAll = (arr) => arr.reduce((a, b) => a + b);
 // use reduce to count the occurences of a value
 const countOccurrences = (arr, val) => arr.reduce((a, v) => v === val ? a + 1 : a, 0);
 
-console.log(countOccurrences('williams'.split(""), ''));
+console.log(countOccurrences('williams'.split(""), 'i'));
